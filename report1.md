@@ -7,21 +7,21 @@ To begin to answer these questions, I use data from the US Department of Educati
 ## Admission Rates vs. Average Cost of Attendance
 Using a list of 623 institutions with both valid average cost of attendance data and reported admission rates, I plot an institution's admission rate vs. its average cost of attendance.
 
-
+![admVsCost](https://github.com/williamalu/data_science_college_scorecard/blob/master/images/admVsCost.png "admVsCost")
 
 As you can see from the widely spread data, there is no correlation between admission rate and average cost of attendance. More selective colleges do not necessarily cost more than less selective colleges. On the flip side, less selective colleges are not necessarily cheaper than more selective colleges.
 
 ## Mean Earnings vs. Average Cost of Attendance
 Using a list of 678 colleges with both valid cost of attendance data and reported mean earnings data that meet National Student Loan Data System (NSLDS) and Treasury Department privacy standards, I plot an institution's graduates' mean earnings 10 years after graduation vs. its average cost of attendance.
 
-
+![earningsVsCost](https://github.com/williamalu/data_science_college_scorecard/blob/master/images/earningsVsCost.png "earningsVsCost")
 
 Here, the data is clustered around graduates making around an average of $50,000 per year 10 years after graduation, regardless of their institution's average cost of attendance. There is no correlation between mean earnings and an institution's average cost of attendance.
 
 ## Mean Earnings vs. Admission Rates
 Using a list of 1526 colleges with both valid cost of attendance data and reported admission rates, I plot an institution's mean earnings 10 years after graduation vs. its admission rate.
 
-
+![earningsVsAdm](https://github.com/williamalu/data_science_college_scorecard/blob/master/images/earningsVsAdm.png "earningsVsAdm")
 
 As the spread out data show, there is no correlation between more selective colleges and their graduates' future earnings. However, a pattern exists in the scatterplot that merits further investigation. There are a small number of colleges with very low admission rates that have graduates that earn substantially more than other colleges. For future investigation, I would group colleges into percentiles by their admission rates and then take the mean of each percentile's mean earnings to see if there is a broad pattern between selectivity and future earnings.
 
