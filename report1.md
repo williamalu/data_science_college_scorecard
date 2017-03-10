@@ -1,4 +1,5 @@
 # Are more selective or expensive colleges worth it?
+### William Lu
 
 As costs to attend college increase, an increasing number of high school seniors are left wondering if they should or must select a more affordable college. First of all, are more selective colleges more expensive? Second of all, do more selective or more expensive colleges help you make more money in the future relative to less selective or less expensive institutions?
 
